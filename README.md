@@ -1,6 +1,6 @@
 # DESCity - 自动生成拟合曲线的小项目
 
-DESCity 是一个小项目，旨在自动生成拟合曲线。它支持从包含多列 "年" 和 "值" 数据的 Excel 表单中自动读取数据。项目使用了 Double Exponential Smoothing（双指数平滑）模型，生成相应的图表：
+DESCity 是一个小项目，旨在自动生成拟合曲线。它支持从包含列 "年" 和 "值" 数据的 Excel 表单中自动读取数据。项目使用了 Double Exponential Smoothing（双指数平滑）模型，生成相应的图表：
 
 - 要求年份数据必须是连续的。
 - 首行数据不被读取。
