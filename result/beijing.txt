@@ -1,0 +1,21 @@
+-----------------------------------beijing-------------------------------------
+                       ExponentialSmoothing Model Results                       
+================================================================================
+Dep. Variable:                    endog   No. Observations:                   22
+Model:             ExponentialSmoothing   SSE                          10530.034
+Optimized:                         True   AIC                            145.761
+Trend:                         Additive   BIC                            151.216
+Seasonal:                          None   AICC                           153.761
+Seasonal Periods:                  None   Date:                 Tue, 15 Aug 2023
+Box-Cox:                          False   Time:                         12:35:36
+Box-Cox Coeff.:                    None                                         
+==============================================================================
+                       coeff                 code              optimized      
+------------------------------------------------------------------------------
+smoothing_level           1.4106e-07                alpha                 True
+smoothing_trend           7.0975e-08                 beta                 True
+initial_level             -13.485116                  l.0                 True
+initial_trend              3.9477144                  b.0                 True
+damping_trend              0.9950000                  phi                 True
+------------------------------------------------------------------------------
+forecast:[72.48895438 76.00679847 79.50705333]

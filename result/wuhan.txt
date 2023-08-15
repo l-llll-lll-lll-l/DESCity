@@ -1,0 +1,21 @@
+-----------------------------------wuhan-------------------------------------
+                       ExponentialSmoothing Model Results                       
+================================================================================
+Dep. Variable:                    endog   No. Observations:                   23
+Model:             ExponentialSmoothing   SSE                          24688.792
+Optimized:                         True   AIC                            170.508
+Trend:                         Additive   BIC                            176.186
+Seasonal:                          None   AICC                           177.975
+Seasonal Periods:                  None   Date:                 Tue, 15 Aug 2023
+Box-Cox:                          False   Time:                         12:35:36
+Box-Cox Coeff.:                    None                                         
+==============================================================================
+                       coeff                 code              optimized      
+------------------------------------------------------------------------------
+smoothing_level            0.2731201                alpha                 True
+smoothing_trend            0.2731201                 beta                 True
+initial_level              48.134119                  l.0                 True
+initial_trend             -13.522329                  b.0                 True
+damping_trend              0.8000000                  phi                 True
+------------------------------------------------------------------------------
+forecast:[85.66232609 87.20266156 88.43492993]
